@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import {createClient} from '../../utils/contentful-api'
+import {createClient} from '../../utils/contentfulapi'
 import JeHeader from '../components/JeHeader.vue'
 import JePhoto from '../components/JePhoto.vue'
 

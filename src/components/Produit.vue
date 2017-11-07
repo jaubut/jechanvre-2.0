@@ -94,7 +94,7 @@
 </template>
 
 <script>
-import {createClient} from '../../utils/contentful-api'
+import {createClient} from '../../utils/contentfulapi'
 import VueMarkdown from 'vue-markdown'
 
 const client = createClient()

@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import {createClient} from '../../utils/contentful-api'
+import {createClient} from '../../utils/contentfulapi'
 
 const client = createClient()
 
