@@ -4,7 +4,6 @@
       template(slot="header-slot")
         img(src="../assets/img/logo-nav.svg")
         p {{ index.fields.headline }}
-        Jeform
     router-link(to="/shop")
       .grid-index
         .item-un
@@ -30,15 +29,13 @@
 import {createClient} from '../../utils/contentful-api'
 import JeHeader from '../components/jeheader.vue'
 import JePhoto from '../components/jephoto.vue'
-import Jeform from '../components/jeform.vue'
 
 const client = createClient()
 
 export default {
   components: {
     JeHeader,
-    JePhoto,
-    Jeform
+    JePhoto
   },
   data () {
     return {
