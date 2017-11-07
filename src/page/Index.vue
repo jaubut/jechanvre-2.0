@@ -27,8 +27,8 @@
 
 <script>
 import {createClient} from '../../utils/contentful-api'
-import JeHeader from '../components/jeHeader.vue'
-import JePhoto from '../components/jePhoto.vue'
+import JeHeader from '../components/JeHeader.vue'
+import JePhoto from '../components/JePhoto.vue'
 
 const client = createClient()
 
