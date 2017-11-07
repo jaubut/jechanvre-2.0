@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import JeHeader from '../components/jeheader.vue'
-import Produit from '../components/produit.vue'
+import JeHeader from '../components/JeHeader.vue'
+import Produit from '../components/Produit.vue'
 
 export default {
   components: {

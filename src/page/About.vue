@@ -10,7 +10,7 @@
 
 <script>
 import {createClient} from '../../utils/contentful-api'
-import jeHeader from '../components/jeheader.vue'
+import jeHeader from '../components/jeHeader.vue'
 import VueMarkdown from 'vue-markdown'
 
 const client = createClient()
